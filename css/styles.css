@@ -1,25 +1,30 @@
-img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-}
 
-<img src="paris.jpg" alt="Paris">
-box-shadow-menu {
-  position: relative;
-  padding-left: 1.25em;
+.jumbotron{
+  background-image: url("../img/backgrounds/landing.jpg");
+  background-size: cover;
+  text-align: center;
 }
-.box-shadow-menu:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.25em;
-  width: 1em;
-  height: 0.15em;
-  background: black;
-  box-shadow:
-    0 0.25em 0 0 black,
-    0 0.5em 0 0 black;
-    font-family: 'Merriweather', serif;
+.row{
+  image: url ("img/foodtop/breakfast.jpg");
+  background-size: contain;
+  text-align: left;
+  image: url ("img/foodtop/lunch.jpg");
+  background-size: contain;
+  text-align: center;
+  image: url ("img/foodtop/dinner.jpg");
+  background-size: contain;
+  text-align: right;
+
+}
+.row{
+  image: url("img/fastfood/beefBurger.jpg");
+  background-size: contain;
+  background-color: inherit;
+  text-align: left;
+  image: url("img/fastfood/chickenBurger.jpg");
+  background-size: contain;
+  background-color: inherit;
+  text-align: center;
+  image: url("img/fastfood/chickenPizza.jpg");
+}
 }
